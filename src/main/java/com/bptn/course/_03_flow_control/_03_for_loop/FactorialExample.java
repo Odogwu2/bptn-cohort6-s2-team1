@@ -5,10 +5,11 @@ import java.util.Scanner;
 public class FactorialExample {
 
 	public static void main(String[] args) {
-		Scanner scanner = new Scanner (System.in);
+		Scanner scanner = new Scanner (System.in);//allowing for user input. 
 		
 		System.out.println ("Enter your number to calculate the factorial: ");
 		int number = scanner.nextInt(); 
+		
 		
 		int ft = 1; 
 		
